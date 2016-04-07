@@ -40,7 +40,7 @@ See CasperJS API for more info: http://docs.casperjs.org/en/latest/modules/teste
 
 ## How do I run the monitor?
 
-From inside the client folder:
+From inside the test folder:
 
 casperjs test --ssl-protocol=tlsv1 --xunit=log.xml main.js
 
