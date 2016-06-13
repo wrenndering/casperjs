@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites time="11.682">
-    <testsuite name="Title exists" tests="2" failures="0" errors="0" time="11.682" timestamp="2016-04-07T15:59:46.402Z" package="main">
-        <testcase name="title element is present for: http://casperjs.org/ - page title: CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS" classname="main" time="6.32"></testcase>
-        <testcase name="title element is present for: http://phantomjs.org/ - page title: PhantomJS | PhantomJS" classname="main" time="5.362"></testcase>
+<testsuites time="18.206">
+    <testsuite name="Title exists" tests="6" failures="3" errors="0" time="18.206" timestamp="2016-06-13T14:46:58.971Z" package="main">
+        <testcase name="title element is present for: http://casperjs.org/ - page title: CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS" classname="main" time="6.769"></testcase>
+        <testcase name="title element is present for: http://phantomjs.org/ - page title: PhantomJS | PhantomJS" classname="main" time="5.554"></testcase>
+        <testcase name="title element is present for: https://nodejs.org/en/ - page title: Node.js" classname="main" time="5.82"></testcase>
+        <testcase name="foo id is present for: http://casperjs.org/" classname="main" time="0.022">
+            <failure type="assertExists">foo id is present for: http://casperjs.org/</failure>
+        </testcase>
+        <testcase name="foo id is present for: http://phantomjs.org/" classname="main" time="0.019">
+            <failure type="assertExists">foo id is present for: http://phantomjs.org/</failure>
+        </testcase>
+        <testcase name="foo id is present for: https://nodejs.org/en/" classname="main" time="0.022">
+            <failure type="assertExists">foo id is present for: https://nodejs.org/en/</failure>
+        </testcase>
         <system-out></system-out>
     </testsuite>
 </testsuites>
