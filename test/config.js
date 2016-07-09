@@ -5,7 +5,6 @@ var config = {
         "https://nodejs.org/en/"
     ],
     "name": "Title exists",
-    "numberOfTests": 2,
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X)",
     "tests":{
         "test1": function (test, url) {
